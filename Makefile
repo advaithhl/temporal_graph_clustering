@@ -15,13 +15,13 @@ communities:
 output: split convert results
 
 split:
-	tar xvzf split_dir.tar.gz
+	tar xvzf outputs/split_dir.tar.gz
 
 convert:
-	tar xvzf converted.tar.gz
+	tar xvzf outputs/converted.tar.gz
 
 results:
-	tar xvzf results.tar.gz
+	tar xvzf outputs/results.tar.gz
 
 clean:
 	rm -rf split_dir converted results

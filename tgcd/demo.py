@@ -1,6 +1,6 @@
-from community_detector import find_all_communities
-from converter import convert_all
-from data_splitter import split_dataset
+from tgcd.community_detector import find_all_communities
+from tgcd.converter import convert_all
+from tgcd.data_splitter import split_dataset
 
 if __name__ == '__main__':
     print('Splitting dataset with parts of 1 day each')

@@ -5,8 +5,8 @@ from subprocess import run
 
 import numpy as np
 
-from data_splitter import getnodes
-from dirs import CONVERTED_DIR, RESULTS_DIR
+from tgcd.data_splitter import getnodes
+from tgcd.dirs import CONVERTED_DIR, RESULTS_DIR
 
 Q = 0
 

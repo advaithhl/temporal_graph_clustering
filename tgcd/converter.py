@@ -4,9 +4,9 @@ from time import time
 
 import numpy as np
 
-from data_splitter import numbers, getnodes
-from dirs import CONVERTED_DIR, SPLIT_DIR
-from temporal_graph import TemporalGraph
+from tgcd.data_splitter import numbers, getnodes
+from tgcd.dirs import CONVERTED_DIR, SPLIT_DIR
+from tgcd.temporal_graph import TemporalGraph
 
 
 def convert(temporal_graph, static_node_list):

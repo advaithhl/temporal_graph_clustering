@@ -5,9 +5,9 @@ import matplotlib.pyplot as plt
 import networkx as nx
 import numpy as np
 
-from community_detector import find_communities
-from data_splitter import getnodes
-from dirs import CONVERTED_DIR, RESULTS_DIR
+from tgcd.community_detector import find_communities
+from tgcd.data_splitter import getnodes
+from tgcd.dirs import CONVERTED_DIR, RESULTS_DIR
 
 
 def load_result(partno):

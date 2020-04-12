@@ -6,7 +6,7 @@ from subprocess import run
 import pandas as pd
 
 # Dataset specific details
-from dirs import SPLIT_DIR
+from tgcd.dirs import SPLIT_DIR
 
 SRC_FILE = 'CollegeMsg.txt'
 DIFF_DAYS = 1
